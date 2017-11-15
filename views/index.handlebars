@@ -1,0 +1,30 @@
+<div id="top-container" class="row" style="height:100vh;">
+  
+  <div class="container">
+    <div id="frmContact" class="col-md-12" class=" wow fadeInUp ">
+      <form action="/contact" method="POST">
+        <div class="form-group">
+          <label for="userEmail">Your Email * </label>
+          <input value="{{userEmail}}" type="email" name="userEmail" class="form-control" id="userEmail" aria-describedby="emailHelp">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="userName">Your Name *</label>
+          <input value="{{userName}}" type="text" name="userName" class="form-control" id="userName">
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject *</label>
+          <input value="{{subject}}" type="text" name="subject" class="form-control" id="subject">
+        </div>
+        <div class="form-group">
+          <label for="content">Your Message *</label>
+          <textarea value="{{content}}" name="content" class="form-control" id="content"></textarea>
+        </div>
+        <button type="submit" name="submit" class="form-control btn  btnAction" style="background-color: #157FFB"><span style="color: white;">Submit</span></button>
+      </form>
+      <br>
+      <br>
+    </div>
+  </div>
+</div>
+</div>

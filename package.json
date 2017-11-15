@@ -1,0 +1,20 @@
+{
+  "name": "jaxwebstudios",
+  "version": "1.0.1",
+  "description": "Personal Portfolio of Jax Morgans, JavaScript Developer",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Jax Morgans",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.5",
+    "sendgrid": "^5.2.3"
+    
+  }
+}
